@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
         transform.Rotate(Vector3.up * Time.deltaTime * turnSpeed * horizontalInput);
         if (restart)
         {
-            transform.positiion = new Vector3(0, 0, 0); //???
+            transform.position = new Vector3(0, 0, 0);
         }
     }
 }
